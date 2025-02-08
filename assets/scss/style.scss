@@ -1,3 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import 'header';
+@import 'sidebar';
+@import 'main';
+@import 'form';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    transition: .3s all ease;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Roboto';
+    position: relative;
+}
+
+/* Modal */
+.wrapper{
+    width: 100%;
+    position: relative;
+}
+.container{
+    max-width: 1640px;
+    margin: 0 auto;
+}
+main{
+    padding-top: 12px;
+    .container{
+        display: flex;
+    }
+    .left_content,.right_content{
+        width: 20%;
+    }
+
+    .content{
+        width: 60%;
+        margin-left: 16px;
+    }
+    aside{
+        width: 100%;
+        max-width: 30%;
+
+    }
+}
+
 main{
     aside{
         width: 100%;

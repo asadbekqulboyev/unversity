@@ -1,0 +1,23 @@
+.form{
+    padding: 20px;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 8px;
+    margin-top: 16px;
+    .quation{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;  
+        margin-top: 10px;   
+        .quation_title{
+            padding-bottom: 20px;
+            width: 100%;
+            text-align: left;
+            border-bottom: 1px solid rgb(240, 240, 240);
+        }
+        label{
+            display: flex;
+            gap: 8px;
+        }
+    }
+}
