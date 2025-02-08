@@ -44,4 +44,14 @@ $(document).ready(function () {
           swiper: swiper,
         },
     });
+    // tab
+    $('.news_item .news_title:first').fadeIn()
+    $('.news_item a').click(function (e) {
+        e.preventDefault();
+        var targetId = $(this).attr('href'); 
+        console.log(targetId);
+        $('.news_item .news_title').fadeOut(0); 
+        $(targetId).fadeIn(); 
+    });
+    
 })
